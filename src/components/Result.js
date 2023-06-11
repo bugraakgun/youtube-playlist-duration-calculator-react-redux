@@ -69,6 +69,7 @@ export default function Result({ videoIds, setErrorMessage, errorMessage, playli
                 null
             }
 
+            <VideoList videoData={videoData}/>
         </div>
 
     )
