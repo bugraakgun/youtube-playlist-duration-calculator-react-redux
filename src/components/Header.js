@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithubSquare, FaMoon, FaSun } from "react-icons/fa";
 export default function Header() {
   return (
-    <nav className="bg-neutral-400 ">
+    <nav className="bg-neutral-200 border-b border-gray-300">
       <div className="px-80 py-7">
         <div className="flex justify-between items-center">
           <span className="font-bold text-xl text-red-500 ">
