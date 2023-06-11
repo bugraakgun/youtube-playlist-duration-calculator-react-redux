@@ -64,6 +64,7 @@ export default function Main() {
           Calculate
         </button>
       </div>
+      <Result videoIds={videoIds} setErrorMessage={setErrorMessage} errorMessage={errorMessage} playlistId={playlistId} />
     </div>
   );
 }
