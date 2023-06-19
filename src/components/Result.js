@@ -10,7 +10,7 @@ export default function Result({
     <div>
       {duration || errorMessage ? (
         <div
-          className={`p-4 mb-4 text-sm text-blue-800 rounded-lg ${errorMessage ? "bg-red-200" : "bg-blue-50"}`}
+          className={`p-4 mb-4 text-sm text-blue-800 dark:text-gray-200 rounded-lg ${errorMessage ? "bg-red-200 dark:bg-red-950" : "bg-blue-50 dark:bg-gray-400"}`}
           role="alert"
         >
           <span className="font-medium">

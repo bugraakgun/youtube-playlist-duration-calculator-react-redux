@@ -17,12 +17,12 @@ export default function VideoList({ videoData, playlistId }) {
     return hour ? `${hour} hour, ${minute} minute, ${second} second` : `${minute} minute, ${second} second`;
   };
   return (
-    <ul className="w-full text-sm font-medium text-gray-900  rounded-lg grid gap-y-2 mb-16">
+    <ul className="w-full text-sm font-medium text-gray-900   rounded-lg grid gap-y-2 mb-16">
       {videoData
         ? videoData.map((item, index) => (
             <li
               key={index}
-              className="w-full px-4 py-2 border-b border-gray-200 bg-gray-200 rounded-lg"
+              className="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-500 bg-gray-200 dark:bg-gray-500 rounded-lg"
             >
               <a
                 href={`https://youtube.com/watch?v=${item.id}&list=${playlistId}`}
